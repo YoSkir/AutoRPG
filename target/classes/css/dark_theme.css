@@ -1,0 +1,109 @@
+/* Base colors */
+.root {
+    -fx-base: #1c1c1c;
+    -fx-background: #1c1c1c;
+    -fx-text-background-color: #1c1c1c;
+    -fx-text-fill: #19a178; /* 深黃色 */
+    -fx-control-inner-background: #1c1c1c;
+    -fx-highlight-fill: #262626;
+    -fx-highlight-text-fill: #19a178;
+    -fx-accent: #19a178;
+    -fx-focus-color: #19a178;
+    -fx-faint-focus-color: #1c1c1c;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: linear-gradient(#2e2e2e, #1c1c1c);
+    -fx-text-fill: #19a178;
+    -fx-border-color: #212d2a;
+    -fx-border-width: 1px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#1c1c1c, #2e2e2e);
+    -fx-text-fill: #ffffff; /* 白色讓按鈕文字更明顯 */
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #19a178;
+    -fx-prompt-text-fill: #7a7a7a; /* 偏深的提示文字顏色 */
+    -fx-highlight-fill: #19a178;
+    -fx-highlight-text-fill: #1c1c1c;
+    -fx-border-color: #212d2a;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #19a178;
+}
+
+/* List View */
+.list-view {
+    -fx-background-color: #1c1c1c;
+    -fx-cell-hover-color: #2e2e2e;
+    -fx-control-inner-background: #1c1c1c;
+    -fx-text-fill: #19a178;
+}
+
+.list-cell {
+    -fx-text-fill: #19a178;
+    -fx-background-color: #1c1c1c;
+    -fx-border-color: #1c1c1c;
+}
+
+.list-cell:hover {
+    -fx-background-color: #2e2e2e;
+}
+
+/* Table View */
+.table-view {
+    -fx-background-color: #1c1c1c;
+    -fx-table-cell-border-color: #2e2e2e;
+    -fx-table-header-border-color: #2e2e2e;
+    -fx-control-inner-background: #1c1c1c;
+}
+
+.table-row-cell {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #19a178;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #19a178;
+    -fx-text-fill: #1c1c1c;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2e2e2e;
+}
+
+.table-view .filler {
+    -fx-background-color: #1c1c1c;
+}
+
+/* Scroll Bars */
+.scroll-bar {
+    -fx-background-color: #1c1c1c;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #2e2e2e;
+}
+
+/* Tabs */
+.tab-pane {
+    -fx-background-color: #1c1c1c;
+}
+
+.tab {
+    -fx-background-color: #1c1c1c;
+    -fx-text-base-color: #19a178;
+    -fx-padding: 5px;
+}
+
+.tab:selected {
+    -fx-background-color: #2e2e2e;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="main" prefHeight="300.0" prefWidth="400.0" stylesheets="@../../../css/dark_theme.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ys.gme.autorpg.controller.MainController">
+   <children>
+      <ToolBar fx:id="toolBar" layoutY="257.0" prefHeight="43.0" prefWidth="400.0">
+        <items>
+          <Button mnemonicParsing="false" text="角色列表" />
+            <Button mnemonicParsing="false" text="測試" textAlignment="JUSTIFY" />
+        </items>
+      </ToolBar>
+      <Pane fx:id="gameDisplayArea" prefHeight="300.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>
