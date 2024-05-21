@@ -11,7 +11,7 @@ public class AutoRpgApplication extends Application {
         //將初始舞台存入場景管理類
         GameManager.MANAGER.getSceneManager().setStage(stage);
         GameManager.MANAGER.getSceneManager().loadScene
-                (Constant.getSceneName(Constant.SceneNameEnum.title));
+                (Constant.SceneNameEnum.title.name());
         stage.show();
     }
 

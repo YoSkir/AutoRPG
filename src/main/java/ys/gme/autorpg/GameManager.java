@@ -2,10 +2,12 @@ package ys.gme.autorpg;
 
 import lombok.Getter;
 import ys.gme.autorpg.character.LiveManager;
+import ys.gme.autorpg.character.history.HistoryManager;
 import ys.gme.autorpg.scene.SceneManager;
 import ys.gme.autorpg.util.DataManager;
 import ys.gme.autorpg.util.JsonMapper;
 import ys.gme.autorpg.util.LoadingManager;
+import ys.gme.autorpg.util.game.paint.PaintManager;
 
 import java.util.Random;
 
@@ -21,6 +23,8 @@ public class GameManager {
     private final JsonMapper jsonMapper=new JsonMapper();
     private final DataManager dataManager=new DataManager();
     private final LoadingManager loadingManager=new LoadingManager();
+    private final PaintManager paintManager=new PaintManager();
+    private final HistoryManager historyManager=new HistoryManager();
 
     private final Random random=new Random();
 

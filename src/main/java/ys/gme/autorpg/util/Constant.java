@@ -4,16 +4,18 @@ package ys.gme.autorpg.util;
  * @author yoskir
  */
 public interface Constant {
-    enum SceneNameEnum {main,title}
+    //場景名稱
+    enum SceneNameEnum {main,title,gmMenu}
+    //檔案類型
     enum DataFileTypeEnum {save,name}
-    enum Nation {西方,中國,日本,米克斯}
+    //國籍
+    enum Nation {Western, Chinese, Japanese, Mix}
+    //隊伍類型
+    enum TeamType{Player,Other,Neutral,Enemy}
+    //預設起始位置
+    Double START_X=200.0;
+    Double START_Y=150.0;
     String SAVE_PATH=System.getProperty("user.home")+"/data";
-    static String getSceneName(SceneNameEnum sceneNameEnum){
-        return switch (sceneNameEnum){
-            case main -> "main";
-            case title -> "title";
-        };
-    }
     /**
      * 方便偵錯的訊息
      * @param params 數量、型別不定的傳入參數

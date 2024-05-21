@@ -11,7 +11,7 @@ public class TitleController implements Controller {
     @FXML
     protected void onHelloButtonClick() {
         GameManager.MANAGER.getSceneManager().loadScene
-                (Constant.getSceneName(Constant.SceneNameEnum.main));
+                (Constant.SceneNameEnum.main.name());
     }
 
     @Override

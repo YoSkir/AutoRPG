@@ -24,4 +24,6 @@ module ys.gme.autorpg {
     exports ys.gme.autorpg.component;
     opens ys.gme.autorpg.component to javafx.fxml;
     exports ys.gme.autorpg.component.name to com.fasterxml.jackson.databind;
+    exports ys.gme.autorpg.character.history;
+    opens ys.gme.autorpg.character.history to javafx.fxml;
 }
