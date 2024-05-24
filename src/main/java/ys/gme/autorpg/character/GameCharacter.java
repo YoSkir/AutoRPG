@@ -18,12 +18,12 @@ public class GameCharacter {
     private Constant.Nation nation;
     private Constant.TeamType teamType;
     private Team team;
+    //歷史訊息
     private HistoryList historyList;
     //潛力值 影響升級時能力值多次增加的機率 每1加5% 最多10
     private final int potential_hp,potential_mp,potential_str,potential_dex,potential_mag,potential_luc;
     private final PaintInfo charPaintInfo;
-    //歷史訊息
-    private
+
 
 
     public GameCharacter(){

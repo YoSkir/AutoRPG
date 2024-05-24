@@ -5,5 +5,5 @@ package ys.gme.autorpg.character.history;
  * @author yoskir
  */
 public class HistoryManager {
-    
+
 }
